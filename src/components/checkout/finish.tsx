@@ -20,7 +20,7 @@ export const StepFinish = () => {
         Agora envie seu pedido para o nosso WhatsApp para concluir. Nosso
         atendente irá te guiar sobre o andamento do pedido.
       </p>
-      <Button>
+      <Button asChild>
         <Link target="_blank" href={linkZap}>
           Enviar para o WhatsApp
         </Link>
